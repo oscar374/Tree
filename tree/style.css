@@ -1,0 +1,18 @@
+
+* {
+  padding: 0;
+  margin: 0;
+}
+.Choinka{
+  display: block;
+  height: 100vh;
+  width: 50vw;
+  background-image: url("https://img.freepik.com/free-photo/merry-christmas-red-background_1361-3542.jpg?w=2000");
+  margin: auto;
+}
+
+.tree{
+  display: block;
+  margin: auto;
+  width: 500px;
+}
