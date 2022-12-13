@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+* {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    font-family: 'La Belle Aurore', cursive;
+}
+.content{
+    display: block;
+    display: flex;
+    width: 100vw;
+    height: 80  vh;
+    background-color: black;    
+}
+.panel1{
+    display: block;
+    width: 35vw;
+    height: 80vh;
+    background-color: rgb(142, 115, 110);
+    color: white;
+    background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    /* bottom, image */
+    url(https://images.unsplash.com/photo-1614030424754-24d0eebd46b2);
+}
+.baner{
+    display: block;
+    width: 65vw;
+    height: 80vh;
+    background-color: rgb(66, 22, 42);
+    text-align: center;
+    color: rgb(176, 101, 101);
+}
+.panel2{
+    display: block;
+    width: 10vw;
+    height: 92vh;
+    background-color: rgb(230, 230, 20);
+    font-size: 120%;
+
+}
+.stopka{
+    display: block;
+    width: 100vw;
+    height: 10vh;    
+    background-color: rgb(142, 115, 110);
+    text-align: right;
+    color: white;
+    border-top: 2px solid red;
+}
+.header{
+    border-bottom: 2px solid red;
+    display: block;
+    width: 100vw;
+    height: 10vh;
+    background-image: url(https://img.freepik.com/free-photo/nice-christmas-background-white-background-with-copy-space_24972-1722.jpg?w=2000);
+}
+h2{
+    background-size: 100%;
+    font-size: 40px;
+    text-align: center;
+    
+}
+.drzewo{
+    display: block;
+    margin: auto;
+    width: 20vw;
+    margin-top: 4vh;
+}
+h3{
+    text-align: center;
+    font-size: 40px;
+}
+h1{
+    display: block;
+    width: 30vw;
+    margin: auto;
+    margin-top: 2vh;
+}
+.zdj{
+    width: 20vw;
+}
+.audio{
+    display: block;
+    margin: auto;
+}
